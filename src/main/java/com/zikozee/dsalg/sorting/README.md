@@ -53,8 +53,9 @@ Which one to select
 
 
 ## Selection Sort   (Sinking sort)
-- we repeatedly find the minimum element and move it to the sorted part of array to make unsorted part sorted
-- 
+- select the smallest element in the array and move it to the beginning of the array by swapping with the front element
+- we do this repeatedly for each element
+
 - Time Complexity:  0(N^2)
 - Space Complexity: O(1) 
 - WHEN TO USE
