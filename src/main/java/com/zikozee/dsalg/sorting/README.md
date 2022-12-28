@@ -64,3 +64,22 @@ Which one to select
 
 - WHEN TO AVOID
 - Average time complexity is a concern
+
+
+## Insertion Sort
+- Divide the given array into two part
+- Take the first element from the unsorted array and find its correct position in sorted array
+- repeat until unsorted array is empty
+- start from 2nd index in the loop (assume first is sorted)
+- if next element is lesser than previous swap
+- while on that element keep swapping until the element find its place
+
+- Time Complexity:  0(N^2)
+- Space Complexity: O(1)
+### WHEN TO USE
+- When we have insufficient memory (since no additional memory is required when sorting)
+- Easy to implement
+- when we have continuous inflow of numbers and we want to keep them sorted
+
+- WHEN TO AVOID
+- Average time complexity is a concern
