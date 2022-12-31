@@ -83,3 +83,23 @@ Which one to select
 
 - WHEN TO AVOID
 - Average time complexity is a concern
+
+
+## Bucket Sort
+- create buckets and distributes elements of array into buckets
+- sort buckets individually
+- Merge buckets after sorting
+
+- number of buckets = round(Sqrt(number of elements))
+- appropriate bucket = ceil(value * number of buckets/maxValue)
+
+- Time Complexity:  0(N Nog N)
+- Space Complexity: O(N)
+### WHEN TO USE
+- When input uniformly distributed over range
+- i.e when difference between numbers or elements are minimal
+- e.g 5, 9, 3, 1, 2, 8, 4, 7, 6
+- NOT ALLOWED: 1,2,4,94,93,95
+
+- WHEN TO AVOID
+- When space is a concern
