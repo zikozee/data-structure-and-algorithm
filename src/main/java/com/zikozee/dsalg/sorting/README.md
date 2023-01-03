@@ -46,7 +46,7 @@ Which one to select
 - Space is a concern
 - Easy to implement
 
-- WHEN TO AVOID
+### WHEN TO AVOID
 - Average time complexity is a concern
 
 
@@ -62,8 +62,10 @@ Which one to select
 - When we have insufficient memory (since no additional memory is required when sorting)
 - Easy to implement
 
-- WHEN TO AVOID
+### WHEN TO AVOID
 - Average time complexity is a concern
+
+
 
 
 ## Insertion Sort
@@ -81,8 +83,10 @@ Which one to select
 - Easy to implement
 - when we have continuous inflow of numbers and we want to keep them sorted
 
-- WHEN TO AVOID
+### WHEN TO AVOID
 - Average time complexity is a concern
+
+
 
 
 ## Bucket Sort
@@ -93,7 +97,7 @@ Which one to select
 - number of buckets = round(Sqrt(number of elements))
 - appropriate bucket = ceil(value * number of buckets/maxValue)
 
-- Time Complexity:  0(N Nog N)
+- Time Complexity:  0(N log N)
 - Space Complexity: O(N)
 ### WHEN TO USE
 - When input uniformly distributed over range
@@ -101,5 +105,20 @@ Which one to select
 - e.g 5, 9, 3, 1, 2, 8, 4, 7, 6
 - NOT ALLOWED: 1,2,4,94,93,95
 
-- WHEN TO AVOID
+### WHEN TO AVOID
+- When space is a concern
+
+
+
+
+## Merge Sort
+- we use divide and conquer 
+
+- Time Complexity:  0(N log N)
+- Space Complexity: O(N)
+### WHEN TO USE
+- When you need a stable sort
+- When average expected time is O(N log N)
+- 
+### WHEN TO AVOID
 - When space is a concern

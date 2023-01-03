@@ -13,6 +13,7 @@ public class InsertionSort {
         PrintArray.print(numbers);
     }
 
+    // loop through and insert at right position
     public static void algorithm(int[] arr){
         for (int i = 1; i < arr.length; i++) { // 0(N)
             int temp = arr[i];  // 0(1)
