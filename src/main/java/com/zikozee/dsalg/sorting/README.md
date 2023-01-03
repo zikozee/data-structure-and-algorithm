@@ -122,3 +122,23 @@ Which one to select
 - 
 ### WHEN TO AVOID
 - When space is a concern
+
+
+
+
+## Quick Sort
+- we use divide and conquer
+- Find a pivot and make sure smaller numbers are located at the left of pivot 
+- and bigger numbers are located at the right of pivot
+- unlike merge sort extra space is not required
+
+- Time Complexity:  0(N log N)
+- Time Complexity:  0(N)
+
+### WHEN TO USE
+- When you need a stable sort
+- considered as the most efficient
+- When average expected time is O(N log N)
+-
+### WHEN TO AVOID
+- When space is a concern
