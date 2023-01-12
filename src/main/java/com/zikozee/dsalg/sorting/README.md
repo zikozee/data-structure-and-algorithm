@@ -142,3 +142,23 @@ Which one to select
 -
 ### WHEN TO AVOID
 - When space is a concern
+
+
+
+
+
+## Heap Sort
+- Insert data to Binary Heap Tree
+- heapify to maintain minimum heap
+- Extract root node from Binary Heap
+- last element become root (heapify and extract root)  ->> repeat process
+- It is best suited with array, it does not work with Linked List
+- - Binary Heap : is a binary with special properties
+    - The value if any given node must be less or equal to its children (min heap)
+    - The value if any given node must be greater or equal to its children (max heap)
+
+- Time Complexity:  0(N log N)
+- Time Complexity:  0(1)
+
+### WHEN TO USE
+- only arrays
