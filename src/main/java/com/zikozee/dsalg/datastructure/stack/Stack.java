@@ -1,4 +1,4 @@
-package com.zikozee.dsalg.datastructure;
+package com.zikozee.dsalg.datastructure.stack;
 
 /**
  * @author: Ezekiel Eromosei

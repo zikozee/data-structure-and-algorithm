@@ -23,3 +23,14 @@
 - Linked List
 - - variable size
 - - implementation is not easy (more code)
+
+- **CREATION**
+- - time complexity: O(1)
+- - space complexity: O(1)
+- **PUSH** , **ISEMPTY**, **POP**, **PEEK**, **DELETE**
+- - time complexity: O(1)
+- - space complexity: O(1)
+
+
+# REAL WORLD EXAMPLE
+- browser back button
